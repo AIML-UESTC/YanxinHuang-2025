@@ -1,2 +1,2 @@
 # YanxinHuang
-https://huangyanixn-yanxinhuang-2025-new-by-me-sfhi0v.streamlit.app/
+https://huangyanxin-china-yanxinhuang-2025-new-by-me-ef0d93.streamlit.app/
