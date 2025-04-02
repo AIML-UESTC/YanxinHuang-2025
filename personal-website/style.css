@@ -1,0 +1,118 @@
+#publication ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#publication li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#publication a {
+    color: #007bff;
+    text-decoration: none;
+}
+#publication a:hover {
+    text-decoration: underline;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+.pro-photo {
+    width: 420px;
+    height: 240px;
+    /*border-radius: 50%;*/
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+.pro-photo-1 {
+    width: 420px;
+    height: 320px;
+    /*border-radius: 50%;*/
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+.pro-photo-2 {
+    width: 420px;
+    height: 280px;
+    /*border-radius: 50%;*/
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header .name {
+    color: #007BFF;
+}
+.header {
+    display: flex; /* 使内容水平排列 */
+    align-items: center; /* 垂直居中对齐 */
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left; /* 左对齐文字 */
+}
+
+.header-img {
+    width: 80px; /* 图片宽度 */
+    height: 80px; /* 图片高度 */
+    margin-right: 15px; /* 图片与文字之间的间距 */
+    border-radius: 5px; /* 可选：使图片有圆角 */
+}
+
+.header-text h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.header-text p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}

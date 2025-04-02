@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Greetings!, I'm <span class="name">Huang Yanxin</span></h1>
+            <p>Welcome to my personal portfolio website!</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="hyx.jpg" alt="Your Photo" class="profile-photo">
+         <p>I am a Master Student.<p>
+         <p>I specialize in Mathematics and applied mathematics, Machine learning, Computer vision, Medical Image Processing, Tumor Segmentation, Image Fusion, 3D Cardiac Reconstruction   .</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Tumor Segmentation & Image Generation</h3>
+                <p>The diagnosis of brainstem gliomas is a high cost task in clinical practice, and the acquisition of image data required for diagnosis is difficult and of low quality. Therefore, how to quickly and accurately obtain high-quality data, accurately segment lesion areas, and maintain good segmentation results even in the absence of data is of great significance for clinical diagnosis..</p>
+                <img src="MRI.jpg" alt="Your Photo" class="pro-photo" style="display: block; margin: 0 auto;">
+                <img src="MRI-result.jpg" alt="Your Photo" class="pro-photo" style="display: block; margin: 0 auto;">
+            </div>
+            <div class="project">
+                <h3>3D Cardiac Reconstruction</h3>
+                <p>Multi contrast cardiac magnetic resonance imaging (CMR) involves obtaining multiple contrast weighted imaging sequences, providing valuable information for comprehensive assessment of cardiac structure and function. However, obtaining multiple contrast weighted images significantly increases scan time, leading to increased discomfort for patients and making them more susceptible to motion artifacts. Therefore, in order to reduce image acquisition time, there is an urgent need for efficient and reliable reconstruction methods to achieve accelerated and high-quality multi contrast CMR imaging. Accelerated cardiac magnetic resonance imaging (CMR) typically requires different k-space sampling trajectories and acceleration factors in different CMR protocols, making it urgent to establish a unified framework to establish consistent and reliable reconstructions in practical use.</p>
+                <img src="CMR-model.jpg" alt="Your Photo" class="pro-photo-1" style="display: block; margin: 0 auto;">
+                <img src="CMR-result.jpg" alt="Your Photo" class="pro-photo" style="display: block; margin: 0 auto;">
+            </div>
+            <div class="project">
+                <h3>Diffusion-guided model in missing modality</h3>
+                <p>Brain tumor segmentation plays a critical role in clinical diagnosis and treatment. Although the development of deep learning has enabled automated segmentation, the clinical application often faces with missing or unavailable imaging modalities, making accurate segmentation of brain tumor from MRI images a challenging problem. To address this challenge, we propose a diffusion-guided multi-modal segmentation network has been proposed for brain tumor segmentation with better generalization to missing modalities. Besides, our framework can be utilized for semi-supervised learning to further exploit unlabeled data for training. Our method achieves superior performance compared to other segmentation methods and provides a potential solution to improving the robustness of models and segmentation outcomes in the presence of missing modalities.</p>
+                <img src="Diff-model.jpg" alt="Your Photo" class="pro-photo-2" style="display: block; margin: 0 auto;">
+                <img src="Diff-result.jpg" alt="Your Photo" class="pro-photo" style="display: block; margin: 0 auto;">
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="Publication">
+        <h2>Publication</h2>
+        <ul>
+        <li>
+            <h3>A multi-task generative model for simultaneous post-contrast MR image synthesis and brainstem glioma segmentation</h3>
+            <p>This study aims to generate post-contrast MR images reducing the exposure of gadolinium-based contrast agents (GBCAs) for brainstem glioma (BSG) detection, simultaneously delineating the BSG lesion, and providing high-resolution contrast information..</p>
+            <a href="https://doi.org/10.1016/j.mri.2024.07.009" target="_blank">Read More</a>
+        </li>
+        <li>
+            <h3> A Multi-Contrast Cardiac MRI Reconstruction Method Using an Advanced Unrolled Network Architecture(Accepted)</h3>
+        </li>
+        </ul>
+
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <!-- Add more skills -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your-email@example.com">hyx@123.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Huang Yanxin</p>
+    </footer>
+</body>
+</html>
