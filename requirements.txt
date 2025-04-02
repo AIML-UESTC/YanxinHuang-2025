@@ -1,5 +1,0 @@
-simplejson
-pillow
-streamlit
-torch
-torchvision
