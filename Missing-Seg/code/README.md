@@ -1,4 +1,4 @@
-## Semi-supervised Learning for Medical Image Segmentation (**SSL4MIS**)
+## Missing Medical Image Segmentation
 
 ## Requirements
 Some important required packages include:
