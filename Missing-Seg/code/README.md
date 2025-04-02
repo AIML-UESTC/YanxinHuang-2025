@@ -16,7 +16,7 @@ Follow official guidance to install [Pytorch][torch_link].
 1. Train the model
 ```
 cd code
-python train_XXXXX.py or python train_XXXXX.py 
+python train_XXXXX.py
 ```
 
 2. Test the model
