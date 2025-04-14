@@ -13,7 +13,7 @@
 #### **MICCAI-CMR是STACOM依托MICCAI举办的针对3D多模态心脏快速重建算法的一个比赛，是医学图像领域的一个难问题，与传统重建(是指从2D的RGB图像中恢复出3D信息，常用的有神经辐射场等算法)不同，这里的重建算法主要是指基于欠采样(有不同速率的掩码进行采样之后)的心脏频域信息，来恢复原有的全采样的心脏信息(其实属于压缩感知的图像问题)。涉及对高维频域信息的处理，对多模态信息的处理，对算力有较高的要求。代码框架借鉴于**
 >https://github.com/hellopipu/PromptMR
 #### **此类任务可以产生的重要创新在于如何使用神经网络来完成对欠采样的恢复，需要有较高的数学基础。
->https://ieeexplore.ieee.org/abstract/document/7394156
->https://ieeexplore.ieee.org/abstract/document/7272048(上海市科技进步一等奖)
+>https://ieeexplore.ieee.org/abstract/document/7394156  
+>https://ieeexplore.ieee.org/abstract/document/7272048 (上海市科技进步一等奖)
 # 个人主页：
 >https://huangyanxin-china.github.io/User-Page/
